@@ -29,10 +29,10 @@ int busca_binaria(int v[], int n, int e) {
             printf("Contador[Binária]: %d\n", cont);
             return indice_medio;
         } else if (v[indice_medio] > e) {
-            cont++;
+            
             maior_indice = indice_medio - 1;
         } else {
-            cont++;
+            
             menor_indice = indice_medio + 1;
         }
     }
